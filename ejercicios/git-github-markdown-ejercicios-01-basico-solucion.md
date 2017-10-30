@@ -1,15 +1,16 @@
-# Solución ejercicios Git, GitHub y Markdown
+# Solución ejercicios básicos de Git, GitHub y Markdown
 
 
 
 ## Repositorio masteruah
 
-1. Crear un repositorio en vuestro GitHub llamado **masteruah**.
+- Crear un repositorio en vuestro GitHub llamado **masteruah**.
 
+~~~
+En el menú de GitHub > Pulsar en el icono “+” > Pinchar en “New repository”
+~~~
 
-![Crear un repositorio](../slides/img/git/github-new-repo.png)
-
-1. Clonar vuestro repositio en local.
+- Clonar vuestro repositio en local.
 
 ~~~
 git clone git@github.com:asanzdiego/masteruah.git
@@ -17,7 +18,7 @@ git clone git@github.com:asanzdiego/masteruah.git
 
 ## README
 
-1. Crear (si no lo habéis creado ya) en vuestro repositorio local
+- Crear (si no lo habéis creado ya) en vuestro repositorio local
 un documento **README.md**.
 
 > Notas: en este documento tendreís que ir poniendo los **comandos**
@@ -30,7 +31,7 @@ touch README.md
 
 ## Commit inicial
 
-1. Añadir al README.md los comanddos utilizados hasta ahora
+- Añadir al README.md los comanddos utilizados hasta ahora
 y hacer un coomit inicial con el mensaje **commit inicial**.
 
 ~~~
@@ -40,7 +41,7 @@ git commit -m "commit inicial"
 
 ## Push inicial
 
-1. Subir los cambios al repositorio remoto.
+- Subir los cambios al repositorio remoto.
 
 ~~~
 git push origin master
@@ -48,19 +49,19 @@ git push origin master
 
 ## Ignorar archivos
 
-1. Crear en el repositorio local un fichero llamado **privado.txt**.
+- Crear en el repositorio local un fichero llamado **privado.txt**.
 
 ~~~
 touch privado.txt
 ~~~
 
-1. Crear en el repositorio local una carpeta llamada **privada**.
+- Crear en el repositorio local una carpeta llamada **privada**.
 
 ~~~
 mkdir privada
 ~~~
 
-1. Realizar los cambios oportunos para que tanto el archivo como
+- Realizar los cambios oportunos para que tanto el archivo como
 la carpeta sean ignorados por git.
 
 ~~~
@@ -72,7 +73,7 @@ git commit -m "añadido fichero .gitignore"
 
 ## Añadir fichero 1.txt
 
-1. Añadir fichero **1.txt** al repositorio local.
+- Añadir fichero **1.txt** al repositorio local.
 
 ~~~
 touch 1.txt
@@ -82,7 +83,7 @@ git commit -m "añadido 1.txt"
 
 ## Crear el tag v0.1
 
-1. Crear un tag **v0.1**.
+- Crear un tag **v0.1**.
 
 ~~~
 git tag v0.1
@@ -90,7 +91,7 @@ git tag v0.1
 
 ## Subir el tag v0.1
 
-1. Subir los cambios al repositorio remoto.
+- Subir los cambios al repositorio remoto.
 
 ~~~
 git push --tag origin master
@@ -98,13 +99,13 @@ git push --tag origin master
 
 ## Crear una rama v0.2
 
-1. Crear una rama **v0.2**.
+- Crear una rama **v0.2**.
 
 ~~~
 git branch v0.2
 ~~~
 
-1. Posiciona tu carpeta de trabajo en esta rama.
+- Posiciona tu carpeta de trabajo en esta rama.
 
 ~~~
 git checkout v0.2
@@ -112,7 +113,7 @@ git checkout v0.2
 
 ## Añadir fichero 1.txt
 
-1. Añadir un fichero **2.txt** en la rama **v0.2**.
+- Añadir un fichero **2.txt** en la rama **v0.2**.
 
 ~~~
 touch 2.txt

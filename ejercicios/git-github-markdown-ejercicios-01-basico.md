@@ -1,16 +1,16 @@
-# Enunciado ejercicios Git, GitHub y Markdown
+# Enunciado ejercicios básicos de Git, GitHub y Markdown
 
 
 
 ## Repositorio masteruah
 
-1. Crear un repositorio en vuestro GitHub llamado **masteruah**.
+- Crear un repositorio en vuestro GitHub llamado **masteruah**.
 
-1. Clonar vuestro repositio en local.
+- Clonar vuestro repositio en local.
 
 ## README
 
-1. Crear (si no lo habéis creado ya) en vuestro repositorio local
+- Crear (si no lo habéis creado ya) en vuestro repositorio local
 un documento **README.md**.
 
 > Notas: en este documento tendreís que ir poniendo los **comandos**
@@ -19,54 +19,54 @@ un documento **README.md**.
 
 ## Commit inicial
 
-1. Añadir al README.md los comanddos utilizados hasta ahora
+- Añadir al README.md los comanddos utilizados hasta ahora
 y hacer un coomit inicial con el mensaje **commit inicial**.
 
 
 ## Push inicial
 
-1. Subir los cambios al repositorio remoto.
+- Subir los cambios al repositorio remoto.
 
 ## Ignorar archivos
 
-1. Crear en el repositorio local un fichero llamado **privado.txt**.
+- Crear en el repositorio local un fichero llamado **privado.txt**.
 
-1. Crear en el repositorio local una carpeta llamada **privada**.
+- Crear en el repositorio local una carpeta llamada **privada**.
 
-1. Realizar los cambios oportunos para que tanto el archivo como
+- Realizar los cambios oportunos para que tanto el archivo como
 la carpeta sean ignorados por git.
 
 ## Añadir fichero 1.txt
 
-1. Añadir fichero **1.txt** al repositorio local.
+- Añadir fichero **1.txt** al repositorio local.
 
 ## Crear el tag v0.1
 
-1. Crear un tag **v0.1**.
+- Crear un tag **v0.1**.
 
 ## Subir el tag v0.1
 
-1. Subir los cambios al repositorio remoto.
+- Subir los cambios al repositorio remoto.
 
 ## Cuenta de GitHub
 
-1. Poner una foto en vuestro perfil de GitHub.
+- Poner una foto en vuestro perfil de GitHub.
 
-1. Poner el doble factor de autentificación en vuestra cuenta de GitHub.
+- Poner el doble factor de autentificación en vuestra cuenta de GitHub.
 
-1. Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador.
+- Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador.
 
 ## Uso social de GitHub
 
-1. Preguntar los nombres de usuario de GitHub de tus compañeros de clase, búscalos, y sigueles.
+- Preguntar los nombres de usuario de GitHub de tus compañeros de clase, búscalos, y sigueles.
 
-1. Seguir los repositorios **masteruah** del resto de tus compañeros.
+- Seguir los repositorios **masteruah** del resto de tus compañeros.
 
-1. Añadir una estrella a los repositorios **masteruah** del resto de tus compañeros.
+- Añadir una estrella a los repositorios **masteruah** del resto de tus compañeros.
 
 ## Crear una tabla
 
-1. Crear una tabla de este estilo en el fichero **README.md**
+- Crear una tabla de este estilo en el fichero **README.md**
 con la información de varios de tus compañeros de clase:
 
 |        NOMBRE          |                     GITHUB                        |
@@ -77,5 +77,5 @@ con la información de varios de tus compañeros de clase:
 
 ## Colaboradores
 
-1. Poner a [github.com/asanzdiego](http://github.com/asanzdiego)
+- Poner a [github.com/asanzdiego](http://github.com/asanzdiego)
 como colaborador del repositorio **campusciff**
