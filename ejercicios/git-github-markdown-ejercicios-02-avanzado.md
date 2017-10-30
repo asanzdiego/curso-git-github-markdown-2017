@@ -77,7 +77,7 @@ compañeros de clase en el equipo **colaboradores**.
 
 - Crear un index.html que se pueda ver como página web en la organización.
 
-## Crear Pull-requests
+## Crear pull requests
 
 - Hacer 2 forks de 2 repositorios **masteruah-tunombredeusuariodegithub.github.io**
 de 2 organizaciones de las que no seais ni administradiores ni colaboradores.
@@ -86,8 +86,8 @@ de 2 organizaciones de las que no seais ni administradiores ni colaboradores.
 
 - En cada rama modificar el fichero **index.html** añadiendo vuestro nombre.
 
-- Con cada rama hacer un pull-request.
+- Con cada rama hacer un pull request.
 
-## Gestionar Pull-requests
+## Gestionar pull requests
 
-- Aceptar los pull-request que lleguen a los repositorios de tu organización.
+- Aceptar los pull requests que lleguen a los repositorios de tu organización.

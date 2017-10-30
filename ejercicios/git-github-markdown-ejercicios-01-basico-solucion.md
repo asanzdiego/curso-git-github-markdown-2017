@@ -66,7 +66,7 @@ la carpeta sean ignorados por git.
 
 ~~~
 echo "privado.txt" > .gitignore
-echo "/privada" > .gitignore
+echo "/privada" >> .gitignore
 git add .
 git commit -m "añadido fichero .gitignore"
 ~~~
@@ -97,26 +97,62 @@ git tag v0.1
 git push --tag origin master
 ~~~
 
-## Crear una rama v0.2
+## Cuenta de GitHub
 
-- Crear una rama **v0.2**.
-
-~~~
-git branch v0.2
-~~~
-
-- Posiciona tu carpeta de trabajo en esta rama.
+- Poner una foto en vuestro perfil de GitHub.
 
 ~~~
-git checkout v0.2
+En el menú de GitHub > Pulsar en la imágen de tu avatar > Pinchar en “Settings” > Pinchar en "Profile"
 ~~~
 
-## Añadir fichero 1.txt
-
-- Añadir un fichero **2.txt** en la rama **v0.2**.
+- Poner el doble factor de autentificación en vuestra cuenta de GitHub.
 
 ~~~
-touch 2.txt
-git add .
-git commit -m "añadido 2.txt"
+En el menú de GitHub > Pulsar en la imágen de tu avatar > Pinchar en “Settings” > Pinchar en "Security"
+~~~
+
+- Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador.
+
+[Seguir esta guía](https://help.github.com/articles/generating-ssh-keys/)
+
+## Uso social de GitHub
+
+- Preguntar los nombres de usuario de GitHub de tus compañeros de clase, búscalos, y sigueles.
+
+~~~
+Ir a http://github.com/usuario y pulsar en "Follow"
+~~~
+
+- Seguir los repositorios **masteruah** del resto de tus compañeros.
+
+~~~
+Ir a http://github.com/usuario y pulsar en "Follow"
+~~~
+
+- Añadir una estrella a los repositorios **masteruah** del resto de tus compañeros.
+
+~~~
+Ir a http://github.com/usuario/masteruah y pulsar en "Star"
+~~~
+
+## Crear una tabla
+
+- Crear una tabla de este estilo en el fichero **README.md**
+con la información de varios de tus compañeros de clase:
+
+~~~
+|        NOMBRE          |                     GITHUB                        |
+|------------------------|---------------------------------------------------|
+| Nombre del compañero 1 | [enlace a github 1](http://github.com/asanzdiego) |
+| Nombre del compañero 2 | [enlace a github 1](http://github.com/asanzdiego) |
+| Nombre del compañero 3 | [enlace a github 3](http://github.com/asanzdiego) |
+~~~
+
+## Colaboradores
+
+- Poner a [github.com/asanzdiego](http://github.com/asanzdiego)
+como colaborador del repositorio **masteruah**
+
+~~~
+Ir a http://github.com/usuario/masteruah > Pinchar en "Settings" > Pinchar en "Collaborators"
 ~~~

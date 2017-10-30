@@ -2,6 +2,39 @@
 
 
 
+## Notas
+
+- Este ejercicio es continuación del anterior por lo que
+tendréis que seguir trabajando en el repositorio **masteruah**.
+
+- También tendreís que ir poniendo los **comandos**
+que habéis tenido que utilizar durante todos los ejercicios
+y las **explicaciones y capturas de pantalla** que consideréis **necesarias** al fichero README.md del citado repositorio.
+
+## Crear una rama v0.2
+
+- Crear una rama **v0.2**.
+
+~~~
+git branch v0.2
+~~~
+
+- Posiciona tu carpeta de trabajo en esta rama.
+
+~~~
+git checkout v0.2
+~~~
+
+## Añadir fichero 2.txt
+
+- Añadir un fichero **2.txt** en la rama **v0.2**.
+
+~~~
+touch 2.txt
+git add .
+git commit -m "añadido 2.txt"
+~~~
+
 ## Crear rama remota v0.2
 
 - Subir los cambios al reposiorio remoto.
@@ -96,68 +129,79 @@ git config --global alias.list 'log --oneline --decorate --graph --all'
 git list
 ~~~
 
-## Cuenta de GitHub
-
-- Poner una foto en vuestro perfil de GitHub.
-
-- Poner el doble factor de autentificación en vuestra cuenta de GitHub.
-
-- Añadir (si no lo habéis hecho ya) la clave pública que se corresponde a tu ordenador.
-
-## Uso social de GitHub
-
-- Preguntar los nombres de usuario de GitHub de tus compañeros de clase, búscalos, y sigueles.
-
-- Seguir los repositorios **masteruah** del resto de tus compañeros.
-
-- Añadir una estrella a los repositorios **masteruah** del resto de tus compañeros.
-
-## Crear una tabla
-
-- Crear una tabla de este estilo en el fichero **README.md** con la información
-de varios de tus compañeros de clase:
-
-|        NOMBRE          |                     GITHUB                        |
-|------------------------|---------------------------------------------------|
-| Nombre del compañero 1 | [enlace a github 1](http://github.com/asanzdiego) |
-| Nombre del compañero 2 | [enlace a github 1](http://github.com/asanzdiego) |
-| Nombre del compañero 3 | [enlace a github 3](http://github.com/asanzdiego) |
-
-## Colaboradores
-
-- Poner a [github.com/asanzdiego](http://github.com/asanzdiego) como colaborador
-del repositorio **masteruah**
-
 ## Crear una organización
 
 - Crear una organización llamada **masteruah-tunombredeusuariodegithub**
+
+~~~
+En el menú de GitHub > Pulsar en el icono “+” > Pinchar en “New organization”
+~~~
 
 ## Crear equipos
 
 - Crear 2 equipos en la organización **masteruah-tunombredeusuariodegithub**,
 uno llamado **administradores** con más permisos y otro **colaboradores** con menos permisos.
 
+~~~
+Ir a http://github.com/masteruah-tunombredeusuariodegithub > Pinchar en "Teams" > Pulsar en "New team"
+~~~
+
 - Meter a [github.com/asanzdiego](http://github.com/asanzdiego) y a 2 de vuestros
 compañeros de clase en el equipo **administradores**.
 
+~~~
+Ir a http://github.com/masteruah-tunombredeusuariodegithub > Pinchar en "Teams" > Seleccionar el equipo "administradores" > Pulsar en "New member"
+~~~
+
 - Meter a [github.com/asanzdiego](http://github.com/asanzdiego) y a otros 2 de vuestros
 compañeros de clase en el equipo **colaboradores**.
+
+~~~
+Ir a http://github.com/masteruah-tunombredeusuariodegithub > Pinchar en "Teams" > Seleccionar el equipo "colaboradores" > Pulsar en "New member"
+~~~
 
 ## Crear un index.html
 
 - Crear un index.html que se pueda ver como página web en la organización.
 
-## Crear Pull-requests
+~~~
+Ir a http://github.com/masteruah-tunombredeusuariodegithub > Pulsar en "New"
+Añadir un repositorio llamado masteruah-tunombredeusuariodegithub.github.io
+Añadir un index.html a dicho repositorio
+~~~
+
+## Crear pull requests
 
 - Hacer 2 forks de 2 repositorios **masteruah-tunombredeusuariodegithub.github.io**
 de 2 organizaciones de las que no seais ni administradiores ni colaboradores.
 
+~~~
+Ir a http://github.com/masteruah-tunombredeusuariodegithub/masteruah-tunombredeusuariodegithub.github.io > Pulsar en "Fork"
+~~~
+
 - Crearos una rama en cada fork.
+
+~~~
+En tu repo forkeado creas una rama.
+~~~
 
 - En cada rama modificar el fichero **index.html** añadiendo vuestro nombre.
 
-- Con cada rama hacer un pull-request.
+~~~
+Situada en dicha rama modificar el fichero index.html.
+~~~
 
-## Gestionar Pull-requests
+- Con cada rama hacer un pull request.
 
-- Aceptar los pull-request que lleguen a los repositorios de tu organización.
+~~~
+Ir a http://github.com/masteruah-tunombredeusuariodegithub/masteruah-tunombredeusuariodegithub.github.io > Pinchar en "Pull requests"
+Pulsar en "New pull request"
+~~~
+
+## Gestionar pull requests
+
+- Aceptar los pull requests que lleguen a los repositorios de tu organización.
+
+~~~
+Dentro del repositorio de la organización gestionar dichos pull requets.
+~~~

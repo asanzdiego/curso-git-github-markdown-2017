@@ -78,4 +78,4 @@ con la información de varios de tus compañeros de clase:
 ## Colaboradores
 
 - Poner a [github.com/asanzdiego](http://github.com/asanzdiego)
-como colaborador del repositorio **campusciff**
+como colaborador del repositorio **masteruah**
