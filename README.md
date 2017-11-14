@@ -5,6 +5,7 @@
 - [Pro Git](https://git-scm.com/book/es/v2)
 - [Slides](https://asanzdiego.github.io/curso-git-github-markdown-2017/recursos/slides/export/git-github-markdown-reveal-slides.html)
 - [Curso de Codeacademy "Learn Git"](https://www.codecademy.com/learn/learn-git)
+- [Curso de DevCode "Fundamentos de Git y GitHub"](https://devcode.la/cursos/git/)
 
 ## Enunciados Ejercicios
 
