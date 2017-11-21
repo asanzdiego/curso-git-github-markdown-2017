@@ -26,7 +26,7 @@
 ## Fuente
 
 - Las slides y sus fuentes las podéis encontrar en:
-    - <https://github.com/asanzdiego/curso-git-github-markdown-2016>
+    - <https://github.com/asanzdiego/curso-git-github-markdown-2017>
 
 
 
