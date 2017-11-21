@@ -60,8 +60,8 @@
 - Tutorial de GIT de Codecademy:
     - <https://www.codecademy.com/learn/learn-git>
 
-- How GitHub Uses GitHub to Build GitHub:
-    - <http://zachholman.com/talk/how-github-uses-github-to-build-github/>
+- Curso de DevCode "Fundamentos de Git y GitHub":
+    - <https://devcode.la/cursos/git/>
 
 
 
