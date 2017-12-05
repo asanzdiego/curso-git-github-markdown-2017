@@ -9,10 +9,10 @@
 
 ## Enunciados Ejercicios
 
-- [Enunciados básicos](https://asanzdiego.github.io/curso-nivelacion-bigdata-2017/ejercicios/git-github-markdown-ejercicios-01-basico.md)
-- [Enunciados avanzados](https://asanzdiego.github.io/curso-nivelacion-bigdata-2017/ejercicios/git-github-markdown-ejercicios-02-avanzado.md)
+- [Enunciados básicos](https://github.com/asanzdiego/curso-git-github-markdown-2017/blob/master/ejercicios/git-github-markdown-ejercicios-01-basico.md)
+- [Enunciados avanzados](https://github.com/asanzdiego/curso-git-github-markdown-2017/blob/master/ejercicios/git-github-markdown-ejercicios-02-avanzado.md)
 
 ## Solución Ejercicios
 
-- [Solución enunciados básicos](https://asanzdiego.github.io/curso-nivelacion-bigdata-2017/ejercicios/git-github-markdown-ejercicios-01-basico.md)
-- [Solución enunciados avanzados](https://asanzdiego.github.io/curso-nivelacion-bigdata-2017/ejercicios/git-github-markdown-ejercicios-02-avanzado.md)
+- [Solución enunciados básicos](https://github.com/asanzdiego/curso-git-github-markdown-2017/blob/master/ejercicios/git-github-markdown-ejercicios-01-basico-solucion.md)
+- [Solución enunciados avanzados](https://github.com/asanzdiego/curso-git-github-markdown-2017/blob/master/ejercicios/git-github-markdown-ejercicios-02-avanzado-solucion.md)
