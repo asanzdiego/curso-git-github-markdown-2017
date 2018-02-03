@@ -15,7 +15,7 @@ git config --global user.name "Nombre que quieras mostrar"
 git config --global user.email "correo@electronico.es"
 ~~~
 
-- Iinicializar un reposiorio
+- Inicializar un repositorio
 
 ~~~
 git init
@@ -42,7 +42,7 @@ git add .
 - Grabar los cambios
 
 ~~~
-git commit -m "mensaje corto descriptivo con los cambios"
+git commit -m "mensaje corto descriptivo de los cambios"
 ~~~
 
 - Alias
@@ -103,7 +103,7 @@ git merge nombre-rama
 
 - Forkear proyectos
 
-- Pull-requets
+- Pull-requests
 
 - Issues y wikis
 
