@@ -324,10 +324,15 @@ git checkout -b nombre-rama nombre-etiqueta
 - Nos permite gestionar repositorios **mediante SSH** sin tener que estar poniendo
 siempre nuestra constraseña.
 
-- Se genera una **clave privada** que se guarde en nuestro ordenador y
-una **clave pública** que es la que tenemos que guardar en nuestra cuenta.
+- Generamos en nuestro ordenador una clave SSH, que es un par de archivos, donde
+    - uno es la **clave privada** (normalmente `~/.ssh/id_rsa`)
+    - el otro es la **clave pública** (normalmente `~/.ssh/id_rsa.pub`)
 
+- La **clave privada** la dejamos en nuestro ordenador.
 
+- La **clave pública** la tenemos que registrar en nuestra cuenta de GitHub.
+
+##  Configurar claves (II)
 
 - La podemos usar pues **solo con un ordenador**.
 
