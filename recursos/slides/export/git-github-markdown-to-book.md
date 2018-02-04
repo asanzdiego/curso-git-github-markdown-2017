@@ -346,7 +346,7 @@ una **clave pública** que es la que tenemos que guardar en nuestra cuenta.
 
 - View profile and more > Settings > Security
 
-![Activr el doble factor de autentificación en GitHub](../img/git/github-2-factor-authentication.png){ width=50% text-align=center }
+![Activar el doble factor de autentificación en GitHub](../img/git/github-2-factor-authentication.png){ width=50% text-align=center }
 
 
 ##  Uso social
