@@ -403,7 +403,13 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <h2><span class="header-section-number">4.4</span> Configurar claves (I)</h2>
 <ul>
 <li><p>Nos permite gestionar repositorios <strong>mediante SSH</strong> sin tener que estar poniendo siempre nuestra constraseña.</p></li>
-<li><p>Se genera una <strong>clave privada</strong> que se guarde en nuestro ordenador y una <strong>clave pública</strong> que es la que tenemos que guardar en nuestra cuenta.</p></li>
+<li>Generamos en nuestro ordenador una clave SSH, que es un par de archivos, donde
+<ul>
+<li>uno es la <strong>clave privada</strong> (normalmente <code>~/.ssh/id_rsa</code>)</li>
+<li>el otro es la <strong>clave pública</strong> (normalmente <code>~/.ssh/id_rsa.pub</code>)</li>
+</ul></li>
+<li><p>La <strong>clave privada</strong> la dejamos en nuestro ordenador.</p></li>
+<li><p>La <strong>clave pública</strong> la tenemos que registrar en nuestra cuenta de GitHub.</p></li>
 </ul>
 </section><section id="configurar-claves-ii" class="slide level2">
 <h2><span class="header-section-number">4.5</span> Configurar claves (II)</h2>

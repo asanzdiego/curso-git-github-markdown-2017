@@ -332,7 +332,7 @@ siempre nuestra constraseña.
 
 - La **clave pública** la tenemos que registrar en nuestra cuenta de GitHub.
 
-##  Configurar claves (II)
+
 
 - La podemos usar pues **solo con un ordenador**.
 
