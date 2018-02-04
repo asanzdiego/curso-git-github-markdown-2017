@@ -329,7 +329,8 @@ una **clave pública** que es la que tenemos que guardar en nuestra cuenta.
 
 ##  Configurar claves (II)
 
-- La podemos usar pues **solo con un ordenador**.
+- Podemos usar la clave SSH desde otros ordenadores (copiando la **clave privada**),
+aunque lo normal es usarla **solo con un ordenador**.
 
 - Instrucciones:
 
