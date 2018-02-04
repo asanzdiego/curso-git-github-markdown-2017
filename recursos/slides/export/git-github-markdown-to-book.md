@@ -333,6 +333,7 @@ siempre nuestra contraseña.
 - La **clave pública** la tenemos que registrar en nuestra cuenta de GitHub.
 
 
+
 - Podemos usar la clave SSH desde otros ordenadores (copiando la **clave privada**),
 aunque lo normal es usarla **solo con un ordenador**.
 

@@ -714,7 +714,7 @@ legibilidad y 'publicabilidad' usando texto plano."
 
 ## Encabezado de segundo nivel
 
-### Encabezado de tercer nivel
+## Encabezado de tercer nivel
 ~~~
 
 ##  Encabezados (II)
@@ -728,7 +728,7 @@ Encabezado de primer nivel
 Encabezado de segundo nivel
 ---------------------------
 
-### Encabezado de tercer nivel ###
+## Encabezado de tercer nivel ##
 ~~~
 
 ##  Listas no numeradas

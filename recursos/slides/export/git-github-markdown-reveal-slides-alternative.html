@@ -139,7 +139,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </section><section id="licencia" class="slide level2">
 <h2><span class="header-section-number">1.2</span> Licencia</h2>
 <ul>
-<li><strong>Este obra está bajo una licencia:</strong>
+<li><strong>Esta obra está bajo una licencia:</strong>
 <ul>
 <li><a href="http://creativecommons.org/licenses/by-sa/3.0/es/">Creative Commons Reconocimiento-CompartirIgual 3.0</a></li>
 </ul></li>
@@ -230,10 +230,10 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <figure>
 <img src="../img/git/vcs-distribuido-bis.png" alt="VCS Distribuido" text-align="center" style="width:50.0%" /><figcaption>VCS Distribuido</figcaption>
 </figure>
-</section><section id="ventajes-vcs-distribuidos" class="slide level2">
-<h2><span class="header-section-number">3.6</span> Ventajes VCS Distribuidos</h2>
+</section><section id="ventajas-vcs-distribuidos" class="slide level2">
+<h2><span class="header-section-number">3.6</span> Ventajas VCS Distribuidos</h2>
 <ul>
-<li>Puedes seguir trabajando aunque el repositorio remoto esté caido.
+<li>Puedes seguir trabajando aunque el repositorio remoto esté caído.
 <ul>
 <li><strong>más autonomía</strong></li>
 </ul></li>
@@ -275,8 +275,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <ul>
 <li><a href="https://git-scm.com/downloads/guis" class="uri">https://git-scm.com/downloads/guis</a></li>
 </ul>
-</section><section id="iinicializar-un-reposiorio" class="slide level2">
-<h2><span class="header-section-number">3.11</span> Iinicializar un reposiorio</h2>
+</section><section id="inicializar-un-repositorio" class="slide level2">
+<h2><span class="header-section-number">3.11</span> Inicializar un repositorio</h2>
 <ul>
 <li>Crea el <strong>subdirectorio .git</strong> con archivos de git para gestionar el repositorio.</li>
 </ul>
@@ -318,10 +318,10 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>Podemos <strong>mover/renombrar archivos</strong> en el área de staging (también lo hará en el área de trabajo)</li>
 </ul>
 <pre><code>git mv antiguo-nombre-del-fichero nuevo-nombre-del-fichero</code></pre>
-</section><section id="resetar-archivos" class="slide level2">
-<h2><span class="header-section-number">3.18</span> Resetar archivos</h2>
+</section><section id="resetear-archivos" class="slide level2">
+<h2><span class="header-section-number">3.18</span> Resetear archivos</h2>
 <ul>
-<li>Para <strong>resetear</strong> los cambios de un fichero (o varios) al area de trabajo (desde el area de staging).</li>
+<li>Para <strong>resetear</strong> los cambios de un fichero (o varios) al área de trabajo (desde el área de staging).</li>
 </ul>
 <pre><code>git reset nombre-del-fichero</code></pre>
 </section><section id="grabar-los-cambios" class="slide level2">
@@ -333,7 +333,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </section><section id="deshacer-los-cambios" class="slide level2">
 <h2><span class="header-section-number">3.20</span> Deshacer los cambios</h2>
 <ul>
-<li>Para <strong>deshacer</strong> los cambios de un fichero (o varios) al area de staging (desde el repositorio).</li>
+<li>Para <strong>deshacer</strong> los cambios de un fichero (o varios) al área de staging (desde el repositorio).</li>
 </ul>
 <pre><code>git checkout nombre-del-fichero</code></pre>
 </section><section id="listado-de-cambios" class="slide level2">
@@ -351,14 +351,14 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </section><section id="ignorar-archivos" class="slide level2">
 <h2><span class="header-section-number">3.23</span> Ignorar archivos</h2>
 <ul>
-<li>Podemos ignorar archivos añadiendolos al fichero <strong>.gitignore</strong>.</li>
+<li>Podemos ignorar archivos añadiéndolos al fichero <strong>.gitignore</strong>.</li>
 </ul>
 </section><section id="creando-etiquetas" class="slide level2">
 <h2><span class="header-section-number">3.24</span> Creando etiquetas</h2>
 <ul>
-<li>Existen etiquetas <strong>ligeras</strong>, y etiquetas <strong>anotadas</strong> (iguales pero estas con más información)</li>
+<li>Existen etiquetas <strong>ligeras</strong>, y etiquetas <strong>anotadas</strong> (iguales pero éstas con más información)</li>
 </ul>
-<pre><code>git tag nombre-etiqueta-lijera</code></pre>
+<pre><code>git tag nombre-etiqueta-ligera</code></pre>
 <pre><code>git tag -a nombre-etiqueta-anotada -m &quot;mensaje que acompaña a la etiqueta&quot;</code></pre>
 </section><section id="etiquetas-tardías" class="slide level2">
 <h2><span class="header-section-number">3.25</span> Etiquetas tardías</h2>
@@ -402,7 +402,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </section><section id="configurar-claves-i" class="slide level2">
 <h2><span class="header-section-number">4.4</span> Configurar claves (I)</h2>
 <ul>
-<li><p>Nos permite gestionar repositorios <strong>mediante SSH</strong> sin tener que estar poniendo siempre nuestra constraseña.</p></li>
+<li><p>Nos permite gestionar repositorios <strong>mediante SSH</strong> sin tener que estar poniendo siempre nuestra contraseña.</p></li>
 <li>Generamos en nuestro ordenador una clave SSH, que es un par de archivos, donde
 <ul>
 <li>uno es la <strong>clave privada</strong> (normalmente <code>~/.ssh/id_rsa</code>)</li>
@@ -414,7 +414,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </section><section id="configurar-claves-ii" class="slide level2">
 <h2><span class="header-section-number">4.5</span> Configurar claves (II)</h2>
 <ul>
-<li><p>La podemos usar pues <strong>solo con un ordenador</strong>.</p></li>
+<li><p>Podemos usar la clave SSH desde otros ordenadores (copiando la <strong>clave privada</strong>), aunque lo normal es usarla <strong>solo con un ordenador</strong>.</p></li>
 <li><p>Instrucciones:</p>
 <ul>
 <li><a href="https://help.github.com/articles/generating-ssh-keys/" class="uri">https://help.github.com/articles/generating-ssh-keys/</a></li>
@@ -434,7 +434,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>View profile and more &gt; Settings &gt; Security</li>
 </ul>
 <figure>
-<img src="../img/git/github-2-factor-authentication.png" alt="Activr el doble factor de autentificación en GitHub" text-align="center" style="width:50.0%" /><figcaption>Activr el doble factor de autentificación en GitHub</figcaption>
+<img src="../img/git/github-2-factor-authentication.png" alt="Activar el doble factor de autentificación en GitHub" text-align="center" style="width:50.0%" /><figcaption>Activar el doble factor de autentificación en GitHub</figcaption>
 </figure>
 </section><section id="uso-social" class="slide level2">
 <h2><span class="header-section-number">4.8</span> Uso social</h2>
@@ -444,7 +444,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>Seguir a gente.</li>
 <li>Seguir proyectos (watch).</li>
 <li>Premiar proyectos (start).</li>
-<li>Forquear proyectos (fork).</li>
+<li><em>Forkear</em> proyectos (fork).</li>
 <li>Crear organizaciones.</li>
 </ul></li>
 </ul>
@@ -452,19 +452,19 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <section><section id="uso-avanzado-de-git" class="titleslide slide level1"><h1><span class="header-section-number">5</span> Uso avanzado de Git</h1></section><section id="conectar-un-repositorio-remoto" class="slide level2">
 <h2><span class="header-section-number">5.1</span> Conectar un repositorio remoto</h2>
 <ul>
-<li>Podemos <strong>conectar uno o varios reposiorios remotos</strong> a nuestro repositorio.</li>
+<li>Podemos <strong>conectar uno o varios repositorios remotos</strong> a nuestro repositorio.</li>
 </ul>
 <pre><code>git remote add alias-repositorio-remoto url-repositorio-remoto</code></pre>
 </section><section id="renombrar-un-repositorio-remoto" class="slide level2">
 <h2><span class="header-section-number">5.2</span> Renombrar un repositorio remoto</h2>
 <ul>
-<li>Podemos <strong>renombrar el alias de un reposiorio remoto</strong>.</li>
+<li>Podemos <strong>renombrar el alias de un repositorio remoto</strong>.</li>
 </ul>
 <pre><code>git remote rename antiguo-alias nuevo-alias</code></pre>
 </section><section id="desconectar-un-repositorio-remoto" class="slide level2">
 <h2><span class="header-section-number">5.3</span> Desconectar un repositorio remoto</h2>
 <ul>
-<li>Podemos <strong>desconectar un reposiorio remoto</strong>.</li>
+<li>Podemos <strong>desconectar un repositorio remoto</strong>.</li>
 </ul>
 <pre><code>git remote remove alias-repositorio-remoto</code></pre>
 </section><section id="ver-los-repositorios-remotos" class="slide level2">
@@ -488,7 +488,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </section><section id="enviar-datos" class="slide level2">
 <h2><span class="header-section-number">5.7</span> Enviar datos</h2>
 <ul>
-<li>Podemos <strong>enviar datos al reposiorio remoto</strong> (solo si está up-to-date).</li>
+<li>Podemos <strong>enviar datos al repositorio remoto</strong> (solo si está up-to-date).</li>
 </ul>
 <pre><code>git push alias-repositorio-remoto nombre-rama-repositorio-remoto</code></pre>
 </section><section id="repos-y-ramas" class="slide level2">
@@ -536,7 +536,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </section><section id="cambiar-de-rama" class="slide level2">
 <h2><span class="header-section-number">5.14</span> Cambiar de rama</h2>
 <ul>
-<li><p>El HEAD es el apuntador que usa GIT para saber en que rama estás.</p></li>
+<li><p>El HEAD es el apuntador que usa GIT para saber en qué rama estás.</p></li>
 <li><p>Cuando cambiamos de rama GIT <strong>cambia el HEAD y los ficheros de tu área de trabajo</strong>.</p></li>
 </ul>
 <pre><code>git checkout nombre-rama</code></pre>
@@ -578,7 +578,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </section><section id="listado-de-ramas-por-estado" class="slide level2">
 <h2><span class="header-section-number">5.20</span> Listado de ramas por estado</h2>
 <ul>
-<li>Podemos saber <strong>que ramas están fusionada y cuales no</strong>.</li>
+<li>Podemos saber <strong>qué ramas están fusionadas y cuáles no</strong>.</li>
 </ul>
 <pre><code>git branch --merged</code></pre>
 <pre><code>git branch --no-merged</code></pre>
@@ -633,16 +633,16 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li><p>Los permisos se otorgan a cada repositorio.</p></li>
 </ul>
 </section><section id="forkear-proyectos" class="slide level2">
-<h2><span class="header-section-number">6.4</span> Forkear proyectos</h2>
+<h2><span class="header-section-number">6.4</span> <em>Forkear</em> proyectos</h2>
 <ul>
-<li><p>Para <strong>participar en un proyecto sin permisos de escritura</strong>, puedes forkearlo.</p></li>
+<li><p>Para <strong>participar en un proyecto sin permisos de escritura</strong>, puedes <em>forkearlo</em>.</p></li>
 <li><p>Consiste en crear una copia completa del repositorio bajo tu control: se encontrará <strong>en tu cuenta</strong> y podrás escribir en él sin limitaciones.</p></li>
 </ul>
 </section><section id="pull-requests-i" class="slide level2">
 <h2><span class="header-section-number">6.5</span> Pull-requests (I)</h2>
 <ul>
 <li><p>Para <strong>enviar propuestas de mejora</strong>.</p></li>
-<li><p>Se usa mucho para proyectos que no son tuyos y en donde te gustaría colaborar.</p></li>
+<li><p>Se usa mucho para proyectos que no son tuyos donde te gustaría colaborar.</p></li>
 <li><p>También se usa dentro de equipos para gestionar proyectos grandes.</p></li>
 </ul>
 </section><section id="pull-requests-ii" class="slide level2">
@@ -679,20 +679,20 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 </section><section id="github-pages" class="slide level2">
 <h2><span class="header-section-number">6.9</span> GitHub pages</h2>
 <ul>
-<li><p>Podemos tener <strong>servidor web en los repositorios simplemente configurandolo</strong>:</p></li>
+<li><p>Podemos tener <strong>servidor web en los repositorios simplemente configurándolo</strong>:</p></li>
 <li><p>Ver : <a href="https://pages.github.com/" class="uri">https://pages.github.com/</a></p></li>
 </ul>
 </section><section id="fichero-readme.md" class="slide level2">
 <h2><span class="header-section-number">6.10</span> Fichero README.md</h2>
 <ul>
-<li>Nos <strong>lo muestra renderizado</strong> en la página del reposiorio.</li>
+<li>Nos <strong>lo muestra renderizado</strong> en la página del repositorio.</li>
 </ul>
 </section><section id="webhooks-services" class="slide level2">
 <h2><span class="header-section-number">6.11</span> Webhooks &amp; services</h2>
 <ul>
-<li><p>Para que GitHub pueda <strong>interactúar con sistemas externos</strong>.</p></li>
+<li><p>Para que GitHub pueda <strong>interactuar con sistemas externos</strong>.</p></li>
 <li><p>Los servicios están ya medio configurados.</p></li>
-<li><p>Si necesitas algo más especifico lo tienes que hacer con webhooks, que lo que hace GitHub es hacer un POST a la URL que indiques cuando se lance algún evento (push, pull request, fork, etc.)</p></li>
+<li><p>Si necesitas algo más específico lo tienes que hacer con webhooks, que lo que hace GitHub es hacer un POST a la URL que indiques cuando se lance algún evento (push, pull request, fork, etc.)</p></li>
 </ul>
 </section></section>
 <section><section id="markdown" class="titleslide slide level1"><h1><span class="header-section-number">7</span> Markdown</h1></section><section id="qué-es-markdown" class="slide level2">
@@ -710,15 +710,15 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <li>Sintaxis sencilla</li>
 <li>Legibilidad</li>
 <li>Publicabilidad</li>
-<li>Exportabiliad</li>
+<li>Exportabilidad</li>
 </ul>
-</section><section id="mardownslides" class="slide level2">
-<h2><span class="header-section-number">7.3</span> Mardownslides</h2>
+</section><section id="markdownslides" class="slide level2">
+<h2><span class="header-section-number">7.3</span> Markdownslides</h2>
 <ul>
 <li><a href="https://github.com/asanzdiego/markdownslides" class="uri">https://github.com/asanzdiego/markdownslides</a></li>
 </ul>
 </section><section id="chuleta-de-markdown" class="slide level2">
-<h2><span class="header-section-number">7.4</span> Chuleta de Markdown:</h2>
+<h2><span class="header-section-number">7.4</span> Chuleta de Markdown</h2>
 <ul>
 <li><a href="http://warpedvisions.org/projects/markdown-cheat-sheet" class="uri">http://warpedvisions.org/projects/markdown-cheat-sheet</a></li>
 </ul>
@@ -736,7 +736,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 
 ## Encabezado de segundo nivel
 
-### Encabezado de tercer nivel</code></pre>
+## Encabezado de tercer nivel</code></pre>
 </section><section id="encabezados-ii" class="slide level2">
 <h2><span class="header-section-number">7.7</span> Encabezados (II)</h2>
 <ul>
@@ -748,19 +748,19 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 Encabezado de segundo nivel
 ---------------------------
 
-### Encabezado de tercer nivel ###</code></pre>
+## Encabezado de tercer nivel ##</code></pre>
 </section><section id="listas-no-numeradas" class="slide level2">
 <h2><span class="header-section-number">7.8</span> Listas no numeradas</h2>
 <ul>
 <li>No enumeradas:
 <ul>
 <li>se puede usar el menos</li>
-<li>se puede usar el asterísico</li>
+<li>se puede usar el asterisco</li>
 <li>se puede usar el más</li>
 </ul></li>
 </ul>
 <pre><code>- se puede usar el menos
-* se puede usar el asterísico
+* se puede usar el asterisco
 + se puede usar el más</code></pre>
 </section><section id="listas-numeradas" class="slide level2">
 <h2><span class="header-section-number">7.9</span> Listas numeradas</h2>
@@ -778,12 +778,12 @@ Encabezado de segundo nivel
 </section><section id="formato-negrita-cursiva-tachado" class="slide level2">
 <h2><span class="header-section-number">7.10</span> Formato (negrita, cursiva, tachado)</h2>
 <ul>
-<li>Texto en cursiva con <em>un asterisco</em> o con <em>un guión bajo</em>.</li>
+<li>Texto en cursiva con <em>un asterisco</em> o con <em>un guion bajo</em>.</li>
 <li>Texto en negrita con <strong>dos asteriscos</strong> o con <strong>dos guiones bajos</strong>.</li>
 <li>Texto tachado con <del>dos virgulillas</del>.</li>
 </ul>
 <pre><code>- Texto negrita con **dos asteriscos** o con __dos guiones bajos__.
-- Texto cursiva con *un asterisco* o con _un guión bajo_.
+- Texto cursiva con *un asterisco* o con _un guion bajo_.
 - Texto tachado con ~~dos virgulillas~~.</code></pre>
 </section><section id="tablas" class="slide level2">
 <h2><span class="header-section-number">7.11</span> Tablas</h2>
@@ -846,12 +846,12 @@ data(county.fips) # mapa de los condados</code></pre>
 </section><section id="imágenes" class="slide level2">
 <h2><span class="header-section-number">7.15</span> Imágenes</h2>
 <ul>
-<li>Este obra está bajo una licencia:</li>
+<li>Esta obra está bajo una licencia:</li>
 </ul>
 <figure>
 <img src="../img/git/cc-by-sa.png" alt="Creative Commons BY SA" text-align="center" style="width:50.0%" /><figcaption>Creative Commons BY SA</figcaption>
 </figure>
-<pre><code>- Este obra está bajo una licencia:
+<pre><code>- Esta obra está bajo una licencia:
 
 ![Creative Commons BY SA](../img/git/cc-by-sa.png){ width=50% text-align=center }
 </code></pre>
