@@ -20,7 +20,7 @@
 
 ## Licencia
 
-- **Este obra está bajo una licencia:**
+- **Esta obra está bajo una licencia:**
     - [Creative Commons Reconocimiento-CompartirIgual 3.0](http://creativecommons.org/licenses/by-sa/3.0/es/)
 
 ## Fuente
@@ -103,9 +103,9 @@ puedas recuperar versiones específicas más adelante."
 ![VCS Distribuido](../img/git/vcs-distribuido-bis.png){ width=50% text-align=center }
 
 
-## Ventajes VCS Distribuidos
+## Ventajas VCS Distribuidos
 
-- Puedes seguir trabajando aunque el repositorio remoto esté caido.
+- Puedes seguir trabajando aunque el repositorio remoto esté caído.
     - **más autonomía**
 
 - La información está más replicada.
@@ -147,7 +147,7 @@ git config --global user.email "correo@electronico.es"
 
 - <https://git-scm.com/downloads/guis>
 
-## Iinicializar un reposiorio
+## Inicializar un repositorio
 
 - Crea el **subdirectorio .git** con archivos de git para gestionar el repositorio.
 
@@ -208,9 +208,9 @@ git rm nombre-del-fichero
 git mv antiguo-nombre-del-fichero nuevo-nombre-del-fichero
 ~~~
 
-##  Resetar archivos
+##  Resetear archivos
 
-- Para **resetear** los cambios de un fichero (o varios) al area de trabajo (desde el area de staging).
+- Para **resetear** los cambios de un fichero (o varios) al área de trabajo (desde el área de staging).
 
 ~~~
 git reset nombre-del-fichero
@@ -226,7 +226,7 @@ git commit -m "mensaje corto descriptivo con los cambios"
 
 ##  Deshacer los cambios
 
-- Para **deshacer** los cambios de un fichero (o varios) al area de staging (desde el repositorio).
+- Para **deshacer** los cambios de un fichero (o varios) al área de staging (desde el repositorio).
 
 ~~~
 git checkout nombre-del-fichero
@@ -250,14 +250,14 @@ git config --global alias.list 'log --oneline --decorate --graph --all'
 
 ## Ignorar archivos
 
-- Podemos ignorar archivos añadiendolos al fichero **.gitignore**.
+- Podemos ignorar archivos añadiéndolos al fichero **.gitignore**.
 
 ## Creando etiquetas
 
-- Existen etiquetas **ligeras**, y etiquetas **anotadas** (iguales pero estas con más información)
+- Existen etiquetas **ligeras**, y etiquetas **anotadas** (iguales pero éstas con más información)
 
 ~~~
-git tag nombre-etiqueta-lijera
+git tag nombre-etiqueta-ligera
 ~~~
 
 ~~~
@@ -322,7 +322,7 @@ git checkout -b nombre-rama nombre-etiqueta
 ##  Configurar claves
 
 - Nos permite gestionar repositorios **mediante SSH** sin tener que estar poniendo
-siempre nuestra constraseña.
+siempre nuestra contraseña.
 
 - Generamos en nuestro ordenador una clave SSH, que es un par de archivos, donde
     - uno es la **clave privada** (normalmente `~/.ssh/id_rsa`)
@@ -351,7 +351,7 @@ aunque lo normal es usarla **solo con un ordenador**.
 
 - View profile and more > Settings > Security
 
-![Activr el doble factor de autentificación en GitHub](../img/git/github-2-factor-authentication.png){ width=50% text-align=center }
+![Activar el doble factor de autentificación en GitHub](../img/git/github-2-factor-authentication.png){ width=50% text-align=center }
 
 
 ##  Uso social
@@ -360,7 +360,7 @@ aunque lo normal es usarla **solo con un ordenador**.
     - Seguir a gente.
     - Seguir proyectos (watch).
     - Premiar proyectos (start).
-    - Forquear proyectos (fork).
+    - *Forkear* proyectos (fork).
     - Crear organizaciones.
 
 
@@ -371,7 +371,7 @@ aunque lo normal es usarla **solo con un ordenador**.
 
 ## Conectar un repositorio remoto
 
-- Podemos **conectar uno o varios reposiorios remotos** a nuestro repositorio.
+- Podemos **conectar uno o varios repositorios remotos** a nuestro repositorio.
 
 ~~~
 git remote add alias-repositorio-remoto url-repositorio-remoto
@@ -379,7 +379,7 @@ git remote add alias-repositorio-remoto url-repositorio-remoto
 
 ## Renombrar un repositorio remoto
 
-- Podemos **renombrar el alias de un reposiorio remoto**.
+- Podemos **renombrar el alias de un repositorio remoto**.
 
 ~~~
 git remote rename antiguo-alias nuevo-alias
@@ -387,7 +387,7 @@ git remote rename antiguo-alias nuevo-alias
 
 ## Desconectar un repositorio remoto
 
-- Podemos **desconectar un reposiorio remoto**.
+- Podemos **desconectar un repositorio remoto**.
 
 ~~~
 git remote remove alias-repositorio-remoto
@@ -419,7 +419,7 @@ git pull alias-repositorio-remoto nombre-rama-repositorio-remoto
 
 ## Enviar datos
 
-- Podemos **enviar datos al reposiorio remoto** (solo si está up-to-date).
+- Podemos **enviar datos al repositorio remoto** (solo si está up-to-date).
 
 ~~~
 git push alias-repositorio-remoto nombre-rama-repositorio-remoto
@@ -478,7 +478,7 @@ git branch nombre-rama
 
 ## Cambiar de rama
 
-- El HEAD es el apuntador que usa GIT para saber en que rama estás.
+- El HEAD es el apuntador que usa GIT para saber en qué rama estás.
 
 - Cuando cambiamos de rama GIT **cambia el HEAD y los ficheros de tu área de trabajo**.
 
@@ -536,7 +536,7 @@ git branch -d nombre-rama
 
 ## Listado de ramas por estado
 
-- Podemos saber **que ramas están fusionada y cuales no**.
+- Podemos saber **qué ramas están fusionadas y cuáles no**.
 
 ~~~
 git branch --merged
@@ -612,9 +612,9 @@ git push alias-repositorio-remoto --delete nombre-rama-remota
 
 - Los permisos se otorgan a cada repositorio.
 
-## Forkear proyectos
+## *Forkear* proyectos
 
-- Para **participar en un proyecto sin permisos de escritura**, puedes forkearlo.
+- Para **participar en un proyecto sin permisos de escritura**, puedes *forkearlo*.
 
 - Consiste en crear una copia completa del repositorio bajo tu control:
  se encontrará **en tu cuenta** y podrás escribir en él sin limitaciones.
@@ -623,7 +623,7 @@ git push alias-repositorio-remoto --delete nombre-rama-remota
 
 - Para **enviar propuestas de mejora**.
 
-- Se usa mucho para proyectos que no son tuyos y en donde te gustaría colaborar.
+- Se usa mucho para proyectos que no son tuyos donde te gustaría colaborar.
 
 - También se usa dentro de equipos para gestionar proyectos grandes.
 
@@ -653,21 +653,21 @@ git push alias-repositorio-remoto --delete nombre-rama-remota
 
 ## GitHub pages
 
-- Podemos tener **servidor web en los repositorios simplemente configurandolo**:
+- Podemos tener **servidor web en los repositorios simplemente configurándolo**:
 
 - Ver : <https://pages.github.com/>
 
 ## Fichero README.md
 
-- Nos **lo muestra renderizado** en la página del reposiorio.
+- Nos **lo muestra renderizado** en la página del repositorio.
 
 ## Webhooks & services
 
-- Para que GitHub pueda **interactúar con sistemas externos**.
+- Para que GitHub pueda **interactuar con sistemas externos**.
 
 - Los servicios están ya medio configurados.
 
-- Si necesitas algo más especifico lo tienes que hacer con webhooks,
+- Si necesitas algo más específico lo tienes que hacer con webhooks,
 que lo que hace GitHub es hacer un POST a la URL que indiques
 cuando se lance algún evento (push, pull request, fork, etc.)
 
@@ -690,13 +690,13 @@ legibilidad y 'publicabilidad' usando texto plano."
 - Sintaxis sencilla
 - Legibilidad
 - Publicabilidad
-- Exportabiliad
+- Exportabilidad
 
-## Mardownslides
+## Markdownslides
 
 - <https://github.com/asanzdiego/markdownslides>
 
-## Chuleta de Markdown:
+## Chuleta de Markdown
 
 - <http://warpedvisions.org/projects/markdown-cheat-sheet>
 
@@ -713,7 +713,7 @@ legibilidad y 'publicabilidad' usando texto plano."
 
 ## Encabezado de segundo nivel
 
-##\# Encabezado de tercer nivel
+### Encabezado de tercer nivel
 ~~~
 
 
@@ -727,19 +727,19 @@ Encabezado de primer nivel
 Encabezado de segundo nivel
 ---------------------------
 
-##\# Encabezado de tercer nivel ##\#
+### Encabezado de tercer nivel ###
 ~~~
 
 ##  Listas no numeradas
 
 - No enumeradas:
     - se puede usar el menos
-    * se puede usar el asterísico
+    * se puede usar el asterisco
     + se puede usar el más
 
 ~~~
 - se puede usar el menos
-* se puede usar el asterísico
+* se puede usar el asterisco
 + se puede usar el más
 ~~~
 
@@ -758,13 +758,13 @@ Encabezado de segundo nivel
 
 ##  Formato (negrita, cursiva, tachado)
 
-- Texto en cursiva con *un asterisco* o con _un guión bajo_.
+- Texto en cursiva con *un asterisco* o con _un guion bajo_.
 - Texto en negrita con **dos asteriscos** o con __dos guiones bajos__.
 - Texto tachado con ~~dos virgulillas~~.
 
 ~~~
 - Texto negrita con **dos asteriscos** o con __dos guiones bajos__.
-- Texto cursiva con *un asterisco* o con _un guión bajo_.
+- Texto cursiva con *un asterisco* o con _un guion bajo_.
 - Texto tachado con ~~dos virgulillas~~.
 ~~~
 
@@ -828,13 +828,13 @@ data(county.fips) # mapa de los condados
 
 ## Imágenes
 
-- Este obra está bajo una licencia:
+- Esta obra está bajo una licencia:
 
 ![Creative Commons BY SA](../img/git/cc-by-sa.png){ width=50% text-align=center }
 
 
 ~~~
-- Este obra está bajo una licencia:
+- Esta obra está bajo una licencia:
 
 ![Creative Commons BY SA](../img/git/cc-by-sa.png){ width=50% text-align=center }
 
