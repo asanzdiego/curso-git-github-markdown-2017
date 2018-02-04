@@ -333,8 +333,8 @@ siempre nuestra constraseña.
 - La **clave pública** la tenemos que registrar en nuestra cuenta de GitHub.
 
 
-
-- La podemos usar pues **solo con un ordenador**.
+- Podemos usar la clave SSH desde otros ordenadores (copiando la **clave privada**),
+aunque lo normal es usarla **solo con un ordenador**.
 
 - Instrucciones:
 
